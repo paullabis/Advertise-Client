@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:gravity="top" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<LinearLayout style="@style/line">
+			<TextView android:text="@string/field_Title" style="@style/label" />
+			<EditText android:id="@+id/field_title"
+				android:inputType="text" android:layout_width="150dip"
+				android:maxWidth="150dip" style="@style/edit_text" />
+		</LinearLayout>
+		<LinearLayout style="@style/line">
+			<TextView android:text="@string/field_description" style="@style/label" />
+			<EditText android:id="@+id/field_description"
+				android:inputType="text" android:layout_width="150dip"
+				android:maxWidth="150dip" style="@style/edit_text" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="vertical"
+		android:gravity="bottom" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingLeft="4dip"
+			android:paddingRight="4dip" android:paddingBottom="1dip"
+			android:background="@android:color/transparent" android:gravity="bottom">
+			
+			<Button android:id="@+id/get_button" android:text="@string/get_button"
+				android:layout_height="fill_parent" android:layout_width="0dip"
+				android:layout_weight="1" />
+			<Button android:id="@+id/update_button" android:text="@string/update_button"
+				android:layout_height="fill_parent" android:layout_width="0dip"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+	
+</LinearLayout>

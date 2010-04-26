@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AdvertiseActivity!</string>
+    <string name="app_name">Advertise</string>
+    
+    <!-- Button  -->
+	<string name="get_button">Get</string>
+	<string name="update_button">Update</string>
+	<string name="save_button">Save</string>
+	
+	<!-- Label -->
+	<string name="field_Title">Title</string>
+	<string name="field_description">Description</string>
+	<string name="field_contactNumber">Contact No.</string>
+	
+	<!-- Others -->
+	<string name="process_dialog_title">Working...</string>
+	<string name="process_dialog_get">Retrieving the contact...</string>
+	<string name="process_dialog_update">Updating the contact...</string>
+	<string name="error_dialog_title">Error</string>
+	<string name="error_dialog_button">Close</string>
+</resources>
